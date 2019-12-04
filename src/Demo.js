@@ -12,7 +12,7 @@ import * as THREE from 'three';
 import './styles/scss/demo.scss';
 import { throwStatement } from '@babel/types';
 
-class App extends Component{
+class Demo extends Component{
 constructor(props){
   super(props);
   this.state={
@@ -566,4 +566,4 @@ render(){
   }
 }
 
-export default App;
+export default Demo;

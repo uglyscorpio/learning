@@ -1,0 +1,88 @@
+// Colors
+$controlColor: #0097ba;
+$highlightColor: $controlColor;
+$darkColor: #2c6d7c;
+$element-bg-dark: #132e35;
+$footer-gb: #444444;
+$defaultTextColor: #f4f4f4;
+$grayText: #466168;
+$primary: $controlColor;
+$body-bg: $element-bg-dark;
+$element-bg-medium: #1b3c44;
+$element-bg-light: #20515c;
+$inner-dropdown-active: #2c6d7c;
+$green: #5c9e43;
+$alertColor: #d42d2a;
+$criticalColor: #cd3127;
+$warningColor: #e9c51c;
+$unknownColor: #667579;
+$accentColor: #2dc0e3;
+$activeBackgroundColor: #0089a9;
+$formControlTextColor: #495057;
+$secondaryText: #9aabaf;
+$solutionTourBtnFontColor: $defaultTextColor;
+$solutionTourContentLinkColor: $accentColor;
+$solutionTourContentLinkHoverColor: #00596e;
+$solutionTourstepCircleColor: $inner-dropdown-active;
+$viewTourAgainBackgroundColor: $inner-dropdown-active;
+$viewTourAgainCloseHoverColor: #000;
+$tableHeaderColor: #9aabaf;
+$darkGrey: #232323;
+$resizeBorderColor: #2dc0e3;
+$licenseBgColor: #1b3c4499;
+$ringBgColor: #0b1d21;
+$belBacBgColor:#fff;
+$infoBgColor: #0097ba;
+$warnBgColor: #eed668;
+
+// Sizing
+$headerHeight: 56px;
+
+// Fonts
+$fontSmallSize: 10px;
+$fontPrimarySize: 14px;
+$fontSecondarySize: 12px;
+$fontThirdSize: 24px;
+$fontFourthSize: 18px;
+$fontPrimaryColor: #92acaf;
+$inputPrimaryColor: #1b3c44;
+$font-family-sans-serif: "Open Sans";
+$fontPrimaryWeight: 300;
+$font-family: "Open Sans";
+$fontSecondaryWeight: 600;
+
+//Navbar
+// Breadcrumb
+$breadcrumb-divider: "|";
+$breadcrumb-bg: transparent;
+$breadcrumb-active-color: $defaultTextColor;
+$breadcrumb-padding-x: 0;
+
+$screenWidth: 768px;
+
+// Modals
+$modal-lg: 800px !default;
+$modal-md: 500px !default;
+$modal-sm: 300px !default;
+
+:export {
+  highlightColor: $highlightColor;
+  darkColor: $darkColor;
+  inputPrimaryColor: $inputPrimaryColor;
+  fontFamilySansSerif: $font-family-sans-serif;
+  greenColor: $green;
+  warningColor: $warningColor;
+  defaultTextColor: $defaultTextColor;
+  darkTextColor: $darkGrey;
+  green: $green;
+  criticalColor: $criticalColor;
+  unknownColor: $unknownColor;
+  secondaryText: $secondaryText;
+  ringBgColor: $ringBgColor;
+  innerDropdownActive: $inner-dropdown-active;
+  elementBgDark: $element-bg-dark;
+  elementBgLight: $element-bg-light;
+  elementBgMedium: $element-bg-medium;
+  infoBgColor: $infoBgColor;
+  warnBgColor: $warnBgColor;
+}

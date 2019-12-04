@@ -1,0 +1,19 @@
+/**
+|--------------------------------------------------
+| Usage:
+| 1. has one parameter e.g. @include mQ(1382px){} means the max width of screen is 1382px
+| 2. has two parameters e.g. @include mQ(1539px,1382px){} means the width of screen is between 1382px and 1539px
+|--------------------------------------------------
+*/
+@mixin mQ($arg...){ 
+	@if length($arg) == 1{
+		@media screen and (max-width: nth($arg,1)){   
+			@content; 
+		}		
+	}
+	@if length($arg) == 2{
+		@media screen and (max-width: nth($arg,1)) and (min-width: nth($arg,2)){   
+			@content; 
+		}		
+	}
+}
